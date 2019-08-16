@@ -13,8 +13,11 @@ namespace SearchAlgorithms
             //LinearSearch linearSearch = new LinearSearch();
             //linearSearch.PerformSearch();
 
-            BinarySearch binarySearch = new BinarySearch();
-            binarySearch.PerformSearch();
+            //BinarySearch binarySearch = new BinarySearch();
+            //binarySearch.PerformSearch();
+
+            JumpSearch jumpSearch = new JumpSearch();
+            jumpSearch.PerformSearch();
         }
     }
 }
