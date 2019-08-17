@@ -25,8 +25,11 @@ namespace SearchAlgorithms
             //InterpolationSearch interpolationSearch = new InterpolationSearch();
             //interpolationSearch.PerformSearch();
 
-            ExponentialSearch exponentialSearch = new ExponentialSearch();
-            exponentialSearch.PerformSearch();
+            //ExponentialSearch exponentialSearch = new ExponentialSearch();
+            //exponentialSearch.PerformSearch();
+
+            TernarySearch ternarySearch = new TernarySearch();
+            ternarySearch.PerformSearch();
         }
     }
 }
