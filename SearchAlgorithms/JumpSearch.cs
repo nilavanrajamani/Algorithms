@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SearchAlgorithms
 {
+    //Assume array is sorted
+    //Time complexity - O(SqrtN)
+    //Auxiliary space - O(1)
     public class JumpSearch
     {
         public void PerformSearch()

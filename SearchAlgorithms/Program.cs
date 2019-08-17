@@ -16,8 +16,17 @@ namespace SearchAlgorithms
             //BinarySearch binarySearch = new BinarySearch();
             //binarySearch.PerformSearch();
 
-            JumpSearch jumpSearch = new JumpSearch();
-            jumpSearch.PerformSearch();
+            //JumpSearch jumpSearch = new JumpSearch();
+            //jumpSearch.PerformSearch();
+
+            //BinarySearchIterative binarySearch = new BinarySearchIterative();
+            //binarySearch.PerformSearch();
+
+            //InterpolationSearch interpolationSearch = new InterpolationSearch();
+            //interpolationSearch.PerformSearch();
+
+            ExponentialSearch exponentialSearch = new ExponentialSearch();
+            exponentialSearch.PerformSearch();
         }
     }
 }
