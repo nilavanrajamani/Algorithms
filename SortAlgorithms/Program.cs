@@ -10,8 +10,14 @@ namespace SortAlgorithms
     {
         static void Main(string[] args)
         {
-            SelectionSort selectionSort = new SelectionSort();
-            selectionSort.PerformSort();
+            //SelectionSort selectionSort = new SelectionSort();
+            //selectionSort.PerformSort();
+
+            //BubbleSort bubbleSort = new BubbleSort();
+            //bubbleSort.PerformSort();
+
+            InsertionSort insertionSort = new InsertionSort();
+            insertionSort.PerformSort();
         }
     }
 }
