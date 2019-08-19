@@ -16,8 +16,11 @@ namespace SortAlgorithms
             //BubbleSort bubbleSort = new BubbleSort();
             //bubbleSort.PerformSort();
 
-            InsertionSort insertionSort = new InsertionSort();
-            insertionSort.PerformSort();
+            //InsertionSort insertionSort = new InsertionSort();
+            //insertionSort.PerformSort();
+
+            MergeSort mergeSort = new MergeSort();
+            mergeSort.PerformSort();
         }
     }
 }
