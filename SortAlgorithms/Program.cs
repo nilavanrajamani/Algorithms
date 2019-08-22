@@ -19,8 +19,11 @@ namespace SortAlgorithms
             //InsertionSort insertionSort = new InsertionSort();
             //insertionSort.PerformSort();
 
-            MergeSort mergeSort = new MergeSort();
-            mergeSort.PerformSort();
+            //MergeSort mergeSort = new MergeSort();
+            //mergeSort.PerformSort();
+
+            HeapSort heapSort = new HeapSort();
+            heapSort.PerformSort();
         }
     }
 }
