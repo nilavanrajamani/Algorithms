@@ -22,8 +22,11 @@ namespace SortAlgorithms
             //MergeSort mergeSort = new MergeSort();
             //mergeSort.PerformSort();
 
-            HeapSort heapSort = new HeapSort();
-            heapSort.PerformSort();
+            //HeapSort heapSort = new HeapSort();
+            //heapSort.PerformSort();
+
+            QuickSort quickSort = new QuickSort();
+            quickSort.PerformSort();
         }
     }
 }
