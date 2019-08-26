@@ -10,8 +10,9 @@ namespace SortAlgorithms
     {
         public void PerformSort()
         {
-            int[] arr = {20, 80, 10, 30, 60, 50,
-                     110, 100, 130, 170};
+            //int[] arr = {20, 80, 10, 30, 60, 50,
+            //         110, 100, 130, 170};
+            int[] arr = { 20, 80, 10, 30, 60, 50 };
 
             int[] sortedArray = ReturnSortedArray(arr);
             foreach (int item in sortedArray)
@@ -40,17 +41,15 @@ namespace SortAlgorithms
             {
                 if (arr[i] < arr[pivotIndex])
                 {
-                    if (j != -1)
-                    {
-                        int temp = arr[i];
-                        arr[i] = arr[j];
-                        arr[j] = temp;
-                    }
                     j++;
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
                 }
             }
 
-            if (j > 0 && j < arr.Length - 1)
+            j++;
+            if (j >= 0 && j < arr.Length - 1)
             {
                 int temp = arr[pivotIndex];
                 arr[pivotIndex] = arr[j];
@@ -58,7 +57,7 @@ namespace SortAlgorithms
             }
 
             int[] arr1 = DoQuickSort(arr.Take(j).ToArray());
-            int[] arr2 = DoQuickSort(arr.Skip(j + 1).ToArray());
+            int[] arr2 = DoQuickSort(arr.Skip(j).ToArray());
             int[] arr3 = (arr1).Concat(arr2).ToArray();
             return arr3.ToArray();
         }
