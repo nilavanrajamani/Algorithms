@@ -25,8 +25,11 @@ namespace SortAlgorithms
             //HeapSort heapSort = new HeapSort();
             //heapSort.PerformSort();
 
-            QuickSort quickSort = new QuickSort();
-            quickSort.PerformSort();
+            //QuickSort quickSort = new QuickSort();
+            //quickSort.PerformSort();
+
+            RadixSort radixSort = new RadixSort();
+            radixSort.PerformSort();
         }
     }
 }
